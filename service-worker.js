@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "alexissdev.github.io/alexissdev.me/precache-manifest.28c1cdde9ecca991b997274a5a2750fc.js"
+  "alexissdev.github.io/precache-manifest.ea589a392a7dd5c0f75c0ca110a60d5d.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("alexissdev.github.io/alexissdev.me/index.html", {
+workbox.routing.registerNavigationRoute("alexissdev.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
