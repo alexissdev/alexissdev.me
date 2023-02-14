@@ -1,0 +1,15 @@
+ /* The settings of navigations */
+ .navigation-color {
+    background-color: #291533;
+}
+
+.navigation-logo {
+    max-height:60px;
+    overflow: hidden;
+    margin-top: -6px;
+}
+
+.nav-link:hover, .nav-link:focus,
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #610C63;
+}

@@ -1,0 +1,23 @@
+.meimg {
+    width: 840px;
+}
+
+.about-card {
+    background-color: #291533;
+}
+
+.about-title {
+    font-weight: bold;
+}
+
+.about-info {
+    position: relative;
+    top: 110px;
+    font-style: italic;
+}
+
+.about-buttom {
+    position: relative;
+    top: 200px;
+    background-color: rgb(57, 0, 90);
+}
