@@ -1,15 +1,15 @@
 {
-  "main.css": "/alexissdev/alexissdev.me/static/css/main.c415d96b.chunk.css",
-  "main.js": "/alexissdev/alexissdev.me/static/js/main.30455e02.chunk.js",
-  "main.js.map": "/alexissdev/alexissdev.me/static/js/main.30455e02.chunk.js.map",
-  "static/css/1.fafe5ade.chunk.css": "/alexissdev/alexissdev.me/static/css/1.fafe5ade.chunk.css",
-  "static/js/1.0d2fb24a.chunk.js": "/alexissdev/alexissdev.me/static/js/1.0d2fb24a.chunk.js",
-  "static/js/1.0d2fb24a.chunk.js.map": "/alexissdev/alexissdev.me/static/js/1.0d2fb24a.chunk.js.map",
-  "runtime~main.js": "/alexissdev/alexissdev.me/static/js/runtime~main.5842f3cd.js",
-  "runtime~main.js.map": "/alexissdev/alexissdev.me/static/js/runtime~main.5842f3cd.js.map",
-  "static/css/main.c415d96b.chunk.css.map": "/alexissdev/alexissdev.me/static/css/main.c415d96b.chunk.css.map",
-  "static/css/1.fafe5ade.chunk.css.map": "/alexissdev/alexissdev.me/static/css/1.fafe5ade.chunk.css.map",
-  "index.html": "/alexissdev/alexissdev.me/index.html",
-  "precache-manifest.6a9e06e54684a4806fb910ae4db3f417.js": "/alexissdev/alexissdev.me/precache-manifest.6a9e06e54684a4806fb910ae4db3f417.js",
-  "service-worker.js": "/alexissdev/alexissdev.me/service-worker.js"
+  "main.css": "/alexissdev.me/static/css/main.c415d96b.chunk.css",
+  "main.js": "/alexissdev.me/static/js/main.30455e02.chunk.js",
+  "main.js.map": "/alexissdev.me/static/js/main.30455e02.chunk.js.map",
+  "static/css/1.fafe5ade.chunk.css": "/alexissdev.me/static/css/1.fafe5ade.chunk.css",
+  "static/js/1.0d2fb24a.chunk.js": "/alexissdev.me/static/js/1.0d2fb24a.chunk.js",
+  "static/js/1.0d2fb24a.chunk.js.map": "/alexissdev.me/static/js/1.0d2fb24a.chunk.js.map",
+  "runtime~main.js": "/alexissdev.me/static/js/runtime~main.ec3ac548.js",
+  "runtime~main.js.map": "/alexissdev.me/static/js/runtime~main.ec3ac548.js.map",
+  "static/css/main.c415d96b.chunk.css.map": "/alexissdev.me/static/css/main.c415d96b.chunk.css.map",
+  "static/css/1.fafe5ade.chunk.css.map": "/alexissdev.me/static/css/1.fafe5ade.chunk.css.map",
+  "index.html": "/alexissdev.me/index.html",
+  "precache-manifest.b2e2dd86baad4d1b6c20c029e1de2612.js": "/alexissdev.me/precache-manifest.b2e2dd86baad4d1b6c20c029e1de2612.js",
+  "service-worker.js": "/alexissdev.me/service-worker.js"
 }
