@@ -1,15 +1,15 @@
 {
-  "main.css": "alexissdev.github.io/static/css/main.c415d96b.chunk.css",
-  "main.js": "alexissdev.github.io/static/js/main.30455e02.chunk.js",
-  "main.js.map": "alexissdev.github.io/static/js/main.30455e02.chunk.js.map",
-  "static/css/1.fafe5ade.chunk.css": "alexissdev.github.io/static/css/1.fafe5ade.chunk.css",
-  "static/js/1.0d2fb24a.chunk.js": "alexissdev.github.io/static/js/1.0d2fb24a.chunk.js",
-  "static/js/1.0d2fb24a.chunk.js.map": "alexissdev.github.io/static/js/1.0d2fb24a.chunk.js.map",
-  "runtime~main.js": "alexissdev.github.io/static/js/runtime~main.8469a1b8.js",
-  "runtime~main.js.map": "alexissdev.github.io/static/js/runtime~main.8469a1b8.js.map",
-  "static/css/1.fafe5ade.chunk.css.map": "alexissdev.github.io/static/css/1.fafe5ade.chunk.css.map",
-  "static/css/main.c415d96b.chunk.css.map": "alexissdev.github.io/static/css/main.c415d96b.chunk.css.map",
-  "index.html": "alexissdev.github.io/index.html",
-  "precache-manifest.737f91898005a7c0198af9ad77a14424.js": "alexissdev.github.io/precache-manifest.737f91898005a7c0198af9ad77a14424.js",
-  "service-worker.js": "alexissdev.github.io/service-worker.js"
+  "main.css": "alexissdev.me/static/css/main.c415d96b.chunk.css",
+  "main.js": "alexissdev.me/static/js/main.30455e02.chunk.js",
+  "main.js.map": "alexissdev.me/static/js/main.30455e02.chunk.js.map",
+  "static/css/1.fafe5ade.chunk.css": "alexissdev.me/static/css/1.fafe5ade.chunk.css",
+  "static/js/1.0d2fb24a.chunk.js": "alexissdev.me/static/js/1.0d2fb24a.chunk.js",
+  "static/js/1.0d2fb24a.chunk.js.map": "alexissdev.me/static/js/1.0d2fb24a.chunk.js.map",
+  "runtime~main.js": "alexissdev.me/static/js/runtime~main.4ff8e980.js",
+  "runtime~main.js.map": "alexissdev.me/static/js/runtime~main.4ff8e980.js.map",
+  "static/css/main.c415d96b.chunk.css.map": "alexissdev.me/static/css/main.c415d96b.chunk.css.map",
+  "static/css/1.fafe5ade.chunk.css.map": "alexissdev.me/static/css/1.fafe5ade.chunk.css.map",
+  "index.html": "alexissdev.me/index.html",
+  "precache-manifest.66b50ef5a00c5a6a9e4339fcd399ab50.js": "alexissdev.me/precache-manifest.66b50ef5a00c5a6a9e4339fcd399ab50.js",
+  "service-worker.js": "alexissdev.me/service-worker.js"
 }
