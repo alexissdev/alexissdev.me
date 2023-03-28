@@ -1,7 +1,7 @@
-const Button = ({href, children }) => {
+const Button = ({ href, children }) => {
   return (
     <div>
-      <button href={href}>
+      <button href={href} className="btn btn-primary">
         {children}
       </button>
     </div>
