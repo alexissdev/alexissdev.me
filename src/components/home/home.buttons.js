@@ -2,7 +2,6 @@ import Image from "next/image";
 
 import Button from "../button/button";
 import imageStyle from "@/styles/ImageEffect.module.css";
-import buttonStyle from "@/styles/HomeButton.module.css";
 
 const HomeButtons = () => {
   return (
