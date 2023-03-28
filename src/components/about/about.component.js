@@ -35,14 +35,9 @@ const AboutComponent = () => {
                 </p>
               </div>
 
-              <a
-                href="https://github.com/alexissdev"
-                className="btn btn-primary w-25 card-button"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
+              <Button href="https://github.com/alexissdev" args="w-25 card-button">
                 Repositories
-              </a>
+              </Button>
             </div>
           </div>
         </div>
