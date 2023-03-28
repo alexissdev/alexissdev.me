@@ -3,38 +3,12 @@
 * {
   color: #fff;
 }
-html {
-  box-sizing: content-box;
-}
-
-html * {
-  box-sizing: inherit;
-}
-
-header {
-  display: flex;
-  justify-content: center;
-  background-color: #291533;
-  padding: 22px;
-  box-shadow: 1px 2px 5px rgb(0, 0, 0, 0.5);
-  z-index: 2;
-  position: relative;
-}
-
-header input {
-  outline: none;
-  border: solid 1px #eee;
-  padding: 10px 5px;
-  border-radius: 4px;
-}
 
 body {
-  margin: 0;
   font-family: Lato, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #1f1026;
-  color: #fff;
 }
 
 footer {
