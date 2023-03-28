@@ -1,0 +1,6 @@
+.nav-link:hover, .nav-link:focus,
+.navbar-brand:hover, .navbar-brand:focus {
+    color: #610C63;
+}
+
+@import url("bootstrap/dist/css/bootstrap.min.css");

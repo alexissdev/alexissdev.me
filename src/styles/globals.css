@@ -1,3 +1,8 @@
+@import url("@/styles/Bootstrap.module.css");
+
+* {
+  color: #fff;
+}
 html {
   box-sizing: content-box;
 }
