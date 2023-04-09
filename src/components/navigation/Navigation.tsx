@@ -1,16 +1,22 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import imageStyle from "@/styles/ImageEffect.module.css";
+import imageStyle from  "@/styles/ImageEffect.module.css";
 import navigationStyle from "@/styles/Navigation.module.css";
 
-function Navigation() {
+export default function Navigation() {
   return (
     <div className={navigationStyle.navigation}>
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <a className="navbar-brand">
-            <img src="/logo.png" alt="" className={navigationStyle.logo} />
+            <Image
+              src="/logo.png"
+              alt=""
+              className={navigationStyle.logo}
+              width={83}
+              height={60}
+            />
           </a>
           <button
             className="navbar-toggler"
@@ -42,7 +48,7 @@ function Navigation() {
                 />
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   href="https://github.com/alexissdev"
                   className="nav-link"
                   target="_blank"
@@ -50,14 +56,15 @@ function Navigation() {
                 >
                   <Image
                     src="/github.svg"
+                    alt="github"
                     className={imageStyle.img}
                     width={28}
                     height={28}
                   />
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   href="https://discord.gg/BWqqbXbUep"
                   className="nav-link"
                   target="_blank"
@@ -65,11 +72,12 @@ function Navigation() {
                 >
                   <Image
                     src="/discord.svg"
+                    alt="discord"
                     className={imageStyle.img}
                     width={28}
                     height={28}
                   />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -78,5 +86,3 @@ function Navigation() {
     </div>
   );
 }
-
-export default Navigation;
