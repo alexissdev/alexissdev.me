@@ -1,3 +1,11 @@
+.background-primary {
+  background-color: #1f1026;
+}
+
+.background-secondary {
+  background-color: #291533;
+}
+
 .nav-link:hover,
 .nav-link:focus,
 .navbar-brand:hover,
