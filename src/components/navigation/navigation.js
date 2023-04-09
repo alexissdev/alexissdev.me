@@ -10,7 +10,13 @@ function Navigation() {
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <a className="navbar-brand">
-            <img src="/logo.png" alt="" className={navigationStyle.logo} />
+            <Image
+              src="/logo.png"
+              alt=""
+              className={navigationStyle.logo}
+              width={83}
+              height={60}
+            />
           </a>
           <button
             className="navbar-toggler"
@@ -42,7 +48,7 @@ function Navigation() {
                 />
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   href="https://github.com/alexissdev"
                   className="nav-link"
                   target="_blank"
@@ -54,10 +60,10 @@ function Navigation() {
                     width={28}
                     height={28}
                   />
-                </a>
+                </Link>
               </li>
               <li className="nav-item">
-                <a
+                <Link
                   href="https://discord.gg/BWqqbXbUep"
                   className="nav-link"
                   target="_blank"
@@ -69,7 +75,7 @@ function Navigation() {
                     width={28}
                     height={28}
                   />
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
