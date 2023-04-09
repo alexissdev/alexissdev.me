@@ -1,14 +1,15 @@
-export default function Error() {
+import Header from "@/components/Header";
+import Footer from "@/components/footer/Footer";
+import Navigation from "@/components/navigation/Navigation";
+import Error from "@/components/error/Error";
+
+export default function ErrorPage() {
   return (
-    <div>
-      <div className="flex flex-col vh-100 items-center gap-4 my-10 p-8">
-        <br />
-        <img
-          src={"https://http.cat/404"}
-          alt="http cat"
-          className="vh-90 error-img"
-        />
-      </div>
-    </div>
+    <>
+      <Header />
+      <Navigation />
+      <Error />
+      <Footer />
+    </>
   );
 }
