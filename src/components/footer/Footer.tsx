@@ -12,12 +12,22 @@ export default function Footer() {
         <div className="col-xs-12 col-md-6 col-lg-3">
           <p className="h5 mb-3"> Popular Repositories </p>
           <div className="mb-2">
-            <Link className="text-secondary text-decoration-none" href="#">
+            <Link
+              className="text-decoration-none footer-link"
+              href="https://github.com/alexissdev/balder"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Balder
             </Link>
           </div>
           <div className="mb-2">
-            <Link className="text-secondary text-decoration-none" href="#">
+            <Link
+              className="text-decoration-none footer-link"
+              href="https://github.com/alexissdev/Isis"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Isis
             </Link>
           </div>
@@ -26,13 +36,23 @@ export default function Footer() {
         <div className="col-xs-12 col-md-6 col-lg-3">
           <p className="h5 mb-3"> External Links </p>
           <div className="mb-2">
-            <Link className="text-secondary text-decoration-none" href="#">
+            <Link
+              className="text-decoration-none footer-link"
+              href="https://www.youtube.com/@alexissdev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Youtube
             </Link>
           </div>
           <div className="mb-2">
-            <Link className="text-secondary text-decoration-none" href="#">
-              Twitter
+            <Link
+              className="footer-link text-decoration-none"
+              href="https://github.com/alexissdev"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GitHub
             </Link>
           </div>
         </div>
@@ -40,13 +60,13 @@ export default function Footer() {
         <div className="col-xs-12 col-md-6 col-lg-3">
           <p className="h5 mb-3"> Contact </p>
           <div className="mb-2">
-            <Link className="text-secondary text-decoration-none" href="#">
+            <Link
+              className="text-decoration-none footer-link"
+              href="https://discord.com/invite/BWqqbXbUep"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Discord
-            </Link>
-          </div>
-          <div className="mb-2">
-            <Link className="text-secondary text-decoration-none" href="#">
-              GitHub
             </Link>
           </div>
         </div>

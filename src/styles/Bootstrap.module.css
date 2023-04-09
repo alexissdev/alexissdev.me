@@ -30,6 +30,14 @@
   width: 50%;
 }
 
+.footer-link {
+  color: #6c757d;
+}
+
+.footer-link:hover {
+  color: #610c63;
+}
+
 .btn-primary {
   --bs-btn-color: #fff;
   --bs-btn-bg: #291533;
