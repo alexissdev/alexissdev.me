@@ -1,9 +1,9 @@
 import Image from "next/image";
 
-import Button from "../button/button";
+import Button from "../button/Button";
 import aboutStyle from "@/styles/About.module.css";
 
-const AboutComponent = () => {
+export default function AboutComponent() {
   return (
     <div className="vh-100 container pt-2 text-center d-flex justify-content-center align-items-center">
       <div className="card mb-3 card">
@@ -11,6 +11,7 @@ const AboutComponent = () => {
           <div className="col-md-4">
             <Image
               src="/yo.jpeg"
+              alt="Alexis"
               className="img-fluid rounded-start "
               width={840}
               height={840}
@@ -35,7 +36,10 @@ const AboutComponent = () => {
                 </p>
               </div>
 
-              <Button href="https://github.com/alexissdev" args="w-25 card-button">
+              <Button
+                href="https://github.com/alexissdev"
+                args="w-25 card-button"
+              >
                 Repositories
               </Button>
             </div>
@@ -44,6 +48,4 @@ const AboutComponent = () => {
       </div>
     </div>
   );
-};
-
-export default AboutComponent;
+}

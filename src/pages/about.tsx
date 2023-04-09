@@ -1,17 +1,15 @@
-import Header from "@/components/header";
-import Footer from "@/components/footer/footer";
-import Navigation from "@/components/navigation/navigation";
-import AboutComponent from "@/components/about/about.component";
+import Header from "@/components/Header";
+import Footer from "@/components/footer/Footer";
+import Navigation from "@/components/navigation/Navigation";
+import About from "@/components/about/About";
 
-const About = () => {
+export default function AboutPage() {
   return (
     <>
       <Header />
       <Navigation />
-      <AboutComponent />
+      <About />
       <Footer />
     </>
   );
-};
-
-export default About;
+}

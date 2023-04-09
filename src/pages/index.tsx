@@ -1,7 +1,7 @@
-import Header from "@/components/header";
-import Footer from "@/components/footer/footer";
-import Navigation from "@/components/navigation/navigation";
-import Home from "@/components/home/home";
+import Header from "@/components/Header";
+import Footer from "@/components/footer/Footer";
+import Navigation from "@/components/navigation/Navigation";
+import Home from "@/components/home/Home";
 
 export default function App() {
   return (

@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Script from "next/script";
 
-const Header = () => {
+export default function Header() {
   return (
     <div>
       <Head>
@@ -12,11 +12,9 @@ const Header = () => {
         <Script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         />
       </Head>
     </div>
   );
-};
-
-export default Header;
+}
