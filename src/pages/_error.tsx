@@ -1,4 +1,4 @@
-const Error = () => {
+export default function Error() {
   return (
     <div>
       <div className="flex flex-col vh-100 items-center gap-4 my-10 p-8">
@@ -11,6 +11,4 @@ const Error = () => {
       </div>
     </div>
   );
-};
-
-export default Error;
+}
