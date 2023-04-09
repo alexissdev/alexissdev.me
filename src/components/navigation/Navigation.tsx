@@ -2,18 +2,17 @@ import Link from "next/link";
 import Image from "next/image";
 
 import imageStyle from  "@/styles/ImageEffect.module.css";
-import navigationStyle from "@/styles/Navigation.module.css";
 
 export default function Navigation() {
   return (
-    <div className={navigationStyle.navigation}>
+    <div className="background-secondary">
       <nav className="navbar navbar-expand-lg navbar-dark">
         <div className="container">
           <a className="navbar-brand">
             <Image
               src="/logo.png"
               alt=""
-              className={navigationStyle.logo}
+              className="max-height-60 overflow-hidden mt-6"
               width={83}
               height={60}
             />
