@@ -1,7 +1,5 @@
 import Image from "next/image";
-
 import Button from "../button/Button";
-import aboutStyle from "@/styles/About.module.css";
 
 export default function AboutComponent() {
   return (
@@ -23,17 +21,19 @@ export default function AboutComponent() {
                 About
               </h5>
 
-              <div className={aboutStyle.info}>
-                <p className="card-text">
-                  Hi, my name is Alexis, I'm 17 years old, I'm from Argentina.
-                  <br />I am currently a freelance developer specialized in Java
-                  language with an experience of 2 years, but I also have
-                  knowledge in JavaScript and TypeScript. with an ongoing
-                  trajectory in order to become a Backend Developer.
-                  <br />
-                  Currently I am about to start my career as a Computer
-                  Engineer, at the UBA university in Argentina.
-                </p>
+              <div className="position-relative">
+                <div className="position-absolute fst-italic">
+                  <p className="card-text">
+                    Hi, my name is Alexis, I'm 17 years old, I'm from Argentina.
+                    <br />I am currently a freelance developer specialized in
+                    Java language with an experience of 2 years, but I also have
+                    knowledge in JavaScript and TypeScript. with an ongoing
+                    trajectory in order to become a Backend Developer.
+                    <br />
+                    Currently I am about to start my career as a Computer
+                    Engineer, at the UBA university in Argentina.
+                  </p>
+                </div>
               </div>
 
               <Button
