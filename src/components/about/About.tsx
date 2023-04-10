@@ -24,7 +24,7 @@ export default function AboutComponent() {
               <div className="position-relative">
                 <div className="position-absolute fst-italic">
                   <p className="card-text">
-                    Hi, my name is Alexis, I'm 17 years old, I'm from Argentina.
+                    {"Hi, my name is Alexis, I'm 17 years old, I'm from Argentina."}
                     <br />I am currently a freelance developer specialized in
                     Java language with an experience of 2 years, but I also have
                     knowledge in JavaScript and TypeScript. with an ongoing

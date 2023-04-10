@@ -1,7 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import imageStyle from  "@/styles/ImageEffect.module.css";
+import imageStyle from "@/styles/ImageEffect.module.css";
 
 export default function Navigation() {
   return (
@@ -31,20 +31,14 @@ export default function Navigation() {
           <div className="collapse navbar-collapse" id="navbarNav">
             <ul className="navbar-nav ms-auto">
               <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  aria-current="page"
-                  href="/"
-                  children="Home"
-                />
+                <Link className="nav-link" aria-current="page" href="/">
+                  Home
+                </Link>
               </li>
               <li className="nav-item">
-                <Link
-                  className="nav-link"
-                  aria-current="page"
-                  href="/about"
-                  children="About"
-                />
+                <Link className="nav-link" aria-current="page" href="/about">
+                  About
+                </Link>
               </li>
               <li className="nav-item">
                 <Link
