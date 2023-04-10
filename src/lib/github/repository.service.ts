@@ -15,18 +15,17 @@ export async function getRepositoryOfUser(
   userName: string
 ): Promise<Repository[]> {
   const repositoryArray: Repository[] = [];
+  const repositories = await getData(`/users/${userName}/repos`);
 
-  getData(`/users/${userName}/repos`).then((data) => {
-    data.forEach((repo: any) => {
-      repositoryArray.push({
-        fullName: repo.full_name,
-        name: repo.name,
-        description: repo.description,
-        stars: repo.stargazers_count,
-        defaultBranch: repo.default_branch,
-      });
+  for (const repo of repositories) {
+    repositoryArray.push({
+      fullName: repo.full_name,
+      name: repo.name,
+      description: repo.description,
+      stars: repo.stargazers_count,
+      defaultBranch: repo.default_branch,
     });
-  });
+  }
 
   return repositoryArray;
 }
