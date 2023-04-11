@@ -1,5 +1,8 @@
 # Personal website of [@alexissdev](https://github.com/alexissdev)
 
+[![MIT License](https://img.shields.io/badge/license-MIT-blue)](license.txt)
+
+
 The website is built with [Next.js](https://nextjs.org/)
 
 ## Clone the project
