@@ -13,6 +13,10 @@
   color: #610c63;
 }
 
+.project-card:hover {
+  background-color: rgb(57, 0, 90);
+}
+
 .card {
   background-color: #291533;
 }
