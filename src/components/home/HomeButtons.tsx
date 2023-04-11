@@ -7,7 +7,7 @@ export default function HomeButtons() {
   return (
     <div className="row">
       <div className="col">
-        <Button href="https://github.com/alexissdev" args={""}>
+        <Button href="https://github.com/alexissdev">
           <Image
             src="/github.svg"
             alt="Github"
@@ -19,7 +19,7 @@ export default function HomeButtons() {
       </div>
 
       <div className="col">
-        <Button href="https://discord.gg/BWqqbXbUep" args="">
+        <Button href="https://discord.gg/BWqqbXbUep">
           <Image
             src="/discord.svg"
             alt="discord"
@@ -31,7 +31,7 @@ export default function HomeButtons() {
       </div>
 
       <div className="col">
-        <Button href="https://www.youtube.com/@alexissdev" args="">
+        <Button href="https://www.youtube.com/@alexissdev">
           <Image
             src="/youtube.svg"
             alt="youtube"

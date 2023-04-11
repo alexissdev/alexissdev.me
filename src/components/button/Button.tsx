@@ -1,4 +1,4 @@
-export default function Button({ href, children, args }: any,) {
+export default function Button({ href, children, args }: { href?: string; children?: any; args?: string }) {
   return (
     <div>
       <a
