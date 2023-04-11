@@ -9,7 +9,10 @@ export default function ProjectCard({
   //      //width: 600, height: 150
   return (
     <div className="col">
-      <div className="project-card card w-100 h-100 p-3" style={{ borderRadius: 15 }}>
+      <div
+        className="project-card card w-100 h-100 p-3"
+        style={{ borderRadius: 15 }}
+      >
         <div className="card-body">
           <h5 className="card-title">{repository.name}</h5>
           <p className="card-text">{repository.description}</p>
