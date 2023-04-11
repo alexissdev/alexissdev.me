@@ -18,6 +18,10 @@ export async function getRepositoryOfUser(
   const repositories = await getData(`/users/${userName}/repos`);
 
   for (const repo of repositories) {
+    if (repo.fork || repo.archived || !repo.description) {
+      continue;
+    }
+
     repositoryArray.push({
       fullName: repo.full_name,
       name: repo.name,
