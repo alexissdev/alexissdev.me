@@ -36,8 +36,8 @@ export default function Navigation() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" aria-current="page" href="/about">
-                  About
+                <Link className="nav-link" aria-current="page" href="/projects">
+                  Projects
                 </Link>
               </li>
               <li className="nav-item">
