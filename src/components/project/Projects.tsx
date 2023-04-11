@@ -8,7 +8,7 @@ export default function Projects({
 }) {
   return (
     <div>
-      <div className="container vh-100 d-flex justify-content-center align-items-center">
+      <div className="container p-5 d-flex justify-content-center align-items-center">
         <div className="row row-cols-1 row-cols-md-2 g-4">
           {repositories.map((repository) => {
             return (
