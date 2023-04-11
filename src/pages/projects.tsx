@@ -13,14 +13,12 @@ export default function Projects({
 }: {
   repositories: Repository[];
 }) {
-  const repoPerRow =
-    repositories.length / 2 === 1 ? 3 : repositories.length / 2;
   return (
     <>
       <Header />
       <Navigation />
       <header className="container vh-100 d-flex justify-content-center align-items-center">
-        <div className={`row row-cols-1 row-cols-md-${repoPerRow} g-4`}>
+        <div className="row row-cols-1 row-cols-md-2 g-4">
           {repositories.map((repository) => {
             return (
               <ProjectCard key={repository.name} repository={repository} />
