@@ -6,7 +6,7 @@ import Error from "@/components/error/Error";
 export default function ErrorPage() {
   return (
     <>
-      <Header />
+      <Header title="Alexis | Error" />
       <Navigation />
       <Error />
       <Footer />

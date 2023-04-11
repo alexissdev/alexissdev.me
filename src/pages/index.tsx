@@ -6,7 +6,7 @@ import Home from "@/components/home/Home";
 export default function App() {
   return (
     <>
-      <Header />
+      <Header title="Alexis | Home" />
       <Navigation />
       <Home />
       <Footer />

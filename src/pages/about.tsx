@@ -6,7 +6,7 @@ import About from "@/components/about/About";
 export default function AboutPage() {
   return (
     <>
-      <Header />
+      <Header title="Alexis | About" />
       <Navigation />
       <About />
       <Footer />
