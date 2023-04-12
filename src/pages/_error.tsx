@@ -6,7 +6,14 @@ import Error from "@/components/error/Error";
 export default function ErrorPage() {
   return (
     <>
-      <Header title="Alexis | Error" />
+      <Header
+        metaData={{
+          title: "Alexis | Error",
+          description: "Error page.",
+          openGraphTitle: "Alexis | Error",
+          url: "https://alexissdev.me/error",
+        }}
+      />
       <Navigation />
       <Error />
       <Footer />

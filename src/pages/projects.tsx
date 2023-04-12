@@ -13,7 +13,14 @@ export default function ProjectsPage({
 }) {
   return (
     <>
-      <Header title="Alexis | Projects" />
+      <Header
+        metaData={{
+          title: "Alexis | Projects",
+          description: "Our projects: the projects that we have developed",
+          openGraphTitle: "Alexis | Projects",
+          url: "https://alexissdev.me/projects",
+        }}
+      />
       <Navigation />
       <Projects repositories={repositories} />
       <Footer />
