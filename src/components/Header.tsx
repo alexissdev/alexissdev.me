@@ -8,6 +8,8 @@ export default function Header({ metaData }: { metaData: Metadata }) {
     <div>
       <Head>
         <title>{metaData.title}</title>
+        <link rel="icon" type="image/x-icon" href="/favicon-1.jpg" />
+
         <meta property="description" content={metaData.description} />
         <meta property="og:type" content="website" />
         <meta
