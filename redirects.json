@@ -1,0 +1,30 @@
+[
+  {
+    "source": "/donate",
+    "destination": "https://paypal.me/notcacha",
+    "permanent": false,
+    "basePath": false
+  },
+  {
+    "source": "/youtube",
+    "destination": "https://www.youtube.com/@alexissdev",
+    "permanent": false,
+    "basePath": false
+  },
+  {
+    "source": "/discord",
+    "destination": "https://discord.gg/BWqqbXbUep",
+    "permanent": false,
+    "basePath": false
+  },
+  {
+    "source": "/project",
+    "destination": "/projects",
+    "permanent": false
+  },
+  {
+    "source": "/github",
+    "destination": "https://github.com/alexissdev",
+    "permanent": false 
+  }
+]
