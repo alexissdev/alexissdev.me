@@ -6,7 +6,14 @@ import About from "@/components/about/About";
 export default function AboutPage() {
   return (
     <>
-      <Header title="Alexis | About" />
+      <Header
+        metaData={{
+          title: "Alexis | About",
+          description: "Get extra information about me",
+          openGraphTitle: "Alexis | About",
+          url: "https://alexissdev.me/about",
+        }}
+      />
       <Navigation />
       <About />
       <Footer />
