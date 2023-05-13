@@ -1,78 +1,77 @@
+import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-import imageStyle from "@/styles/ImageEffect.module.css";
+import imageStyle from "@/styles/image.module.css";
 
 export default function Navigation() {
+  const [isOpen, setOpen] = useState(false);
+
   return (
-    <div className="background-secondary">
-      <nav className="navbar navbar-expand-lg navbar-dark">
-        <div className="container">
-          <a className="navbar-brand">
-            <Image
-              src="/logo.png"
-              alt=""
-              className="max-height-60 overflow-hidden mt-6"
-              width={83}
-              height={60}
-            />
-          </a>
+    <div className="bg-secondary w-full flex flex-col justify-center p-2">
+      <nav className="flex items-center justify-between flex-wrap md:w-full md:flex-row md:justify-between md:max-w-5xl md:h-16 md:items-center md:mx-auto md:px-8">
+        <div className="flex items-center flex-shrink-0 text-white mr-6">
+          <Image
+            src="/logo.png"
+            alt=""
+            className="overflow-hidden mt-1"
+            width={83}
+            height={60}
+          />
+        </div>
+        <div className="block lg:hidden">
           <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            className="flex items-center px-3 py-2 border rounded text-white border-white hover:text-gray-400 hover:border-gray-400"
+            onClick={() => setOpen(!isOpen)}
           >
-            <span className="navbar-toggler-icon" />
+            <svg
+              className="fill-current h-3 w-3"
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <title>Menu</title>
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
           </button>
-          <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav ms-auto">
-              <li className="nav-item">
-                <Link className="nav-link" aria-current="page" href="/">
-                  Home
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link className="nav-link" aria-current="page" href="/projects">
-                  Projects
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  href="https://github.com/alexissdev"
-                  className="nav-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+        </div>
+        <div
+          className={`text-left w-full flex-grow lg:flex lg:items-center lg:w-auto lg:text-right ${
+            isOpen ? "" : "hidden"
+          }`}
+        >
+          <div className="text-white text-sm md:flex-grow">
+            {[
+              ["/", "Home"],
+              ["/projects", "Projects"],
+            ].map(([path, id]) => (
+              <span
+                key={id}
+                className="block mt-4 md:inline-block md:mt-0 text-whit mr-4 hover:text-hover"
+              >
+                <Link href={path}>{id}</Link>
+              </span>
+            ))}
+          </div>
+          <div className="md:flex md:flex-row md:items-center">
+            {[
+              ["/github", "/github.svg"],
+              ["/discord", "/discord.svg"],
+            ].map(([path, id]) => (
+              <div
+                key={id}
+                className="block mt-4 md:inline-block md:mt-0 text-whit mr-4 hover:text-hover"
+              >
+                <a href={path}>
                   <Image
-                    src="/github.svg"
-                    alt="github"
+                    src={id}
+                    alt={id}
                     className={imageStyle.img}
                     width={28}
                     height={28}
                   />
-                </Link>
-              </li>
-              <li className="nav-item">
-                <Link
-                  href="https://discord.gg/BWqqbXbUep"
-                  className="nav-link"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Image
-                    src="/discord.svg"
-                    alt="discord"
-                    className={imageStyle.img}
-                    width={28}
-                    height={28}
-                  />
-                </Link>
-              </li>
-            </ul>
+                </a>
+              </div>
+            ))}
           </div>
         </div>
       </nav>

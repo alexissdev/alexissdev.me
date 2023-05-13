@@ -5,7 +5,7 @@ import Error from "@/components/error/Error";
 
 export default function ErrorPage() {
   return (
-    <>
+    <div className="bg-primary">
       <Header
         metaData={{
           title: "Alexis | Error",
@@ -17,6 +17,6 @@ export default function ErrorPage() {
       <Navigation />
       <Error />
       <Footer />
-    </>
+    </div>
   );
 }

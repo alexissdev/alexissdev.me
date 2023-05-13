@@ -7,14 +7,14 @@ export default function Projects({
   repositories: Repository[];
 }) {
   return (
-    <div>
-      <div className="container p-5 d-flex justify-content-center align-items-center">
-        <div className="row row-cols-1 row-cols-md-2 g-4">
-          {repositories.map((repository) => {
-            return (
-              <ProjectCard key={repository.name} repository={repository} />
-            );
-          })}
+    <div className="bg-primary pt-5 pb-5 md:pt-8 md:pb-8">
+      <div className="max-w-6xl mx-auto">
+        <div className="flex flex-col gap-8 px-10">
+          <div className="flex flex-wrap -mx-1">
+            {Object.entries(repositories).map(([key, repo]) => (
+              <ProjectCard key={key} repository={repo} />
+            ))}
+          </div>
         </div>
       </div>
     </div>
