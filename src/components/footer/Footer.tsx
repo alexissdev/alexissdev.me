@@ -1,81 +1,65 @@
-import Link from "next/link";
+import { FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <div className="container-fluid">
-      <div className="row p-5 pb-2 background-secondary">
-        <div className="col-xs-12 col-md-6 col-lg-3">
-          <p className="h3"> Alexis Costa</p>
-          <p className="text-secondary">Buenos Aires, Argentina.</p>
+    <div className="bg-secondary">
+      <div className="text-white h-1/2 w-full flex md:flex-row flex-col justify-around items-start">
+        <div className="p-5">
+          <ul>
+            <p className="font-bold text-3xl pb-6">Alexis Costa</p>
+            <div className="text-gray-500 flex gap-6 pb-5">
+              Pilar, Buenos Aires, Argentina
+            </div>
+            <div className="flex gap-6 text-gray-500">
+              <FaInstagram className="text-2xl cursor-pointer hover:text-hover" />
+              <FaLinkedin className="text-2xl cursor-pointer hover:text-hover" />
+              <FaYoutube className="text-2xl cursor-pointer hover:text-hover" />
+            </div>
+          </ul>
         </div>
-
-        <div className="col-xs-12 col-md-6 col-lg-3">
-          <p className="h5 mb-3"> Popular Repositories </p>
-          <div className="mb-2">
-            <Link
-              className="text-decoration-none footer-link"
-              href="https://github.com/alexissdev/balder"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Balder
-            </Link>
-          </div>
-          <div className="mb-2">
-            <Link
-              className="text-decoration-none footer-link"
-              href="https://github.com/alexissdev/Isis"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Isis
-            </Link>
-          </div>
+        <div className="p-5">
+          <ul>
+            <p className="text-2xl pb-4">Popular Repositories</p>
+            <li className="text-gray-500 text-md pb-2 font-light hover:text-hover cursor-pointer">
+              <a
+                href="https://github.com/alexissdev/balder"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Balder
+              </a>
+            </li>
+            <li className="text-gray-500 text-md pb-2 font-light hover:text-hover cursor-pointer">
+              <a
+                href="https://github.com/alexissdev/Isis"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Isis
+              </a>
+            </li>
+          </ul>
         </div>
-
-        <div className="col-xs-12 col-md-6 col-lg-3">
-          <p className="h5 mb-3"> External Links </p>
-          <div className="mb-2">
-            <Link
-              className="text-decoration-none footer-link"
-              href="https://www.youtube.com/@alexissdev"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Youtube
-            </Link>
-          </div>
-          <div className="mb-2">
-            <Link
-              className="footer-link text-decoration-none"
-              href="https://github.com/alexissdev"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </Link>
-          </div>
+        <div className="p-5">
+          <ul>
+            <p className="text-2xl pb-4">Contact</p>
+            <li className="text-gray-500 text-md pb-2 font-light hover:text-primary cursor-pointer">
+              <a
+                href="https://discord.com/invite/BWqqbXbUep"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Discord
+              </a>
+            </li>
+          </ul>
         </div>
-
-        <div className="col-xs-12 col-md-6 col-lg-3">
-          <p className="h5 mb-3"> Contact </p>
-          <div className="mb-2">
-            <Link
-              className="text-decoration-none footer-link"
-              href="https://discord.com/invite/BWqqbXbUep"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Discord
-            </Link>
-          </div>
-        </div>
-
-        <div className="col-xs-12 pt-4">
-          <p className="text-white text-center">
-            All rights reserved. Alexis Costa
-          </p>
-        </div>
+      </div>
+      <div className="flex flex-col text-white justify-center items-center text-center p-5">
+        <h1 className="text-center">
+          © All rights reserved {""}
+          <span className="cursor-pointer">AlexisDev </span>
+        </h1>
       </div>
     </div>
   );
