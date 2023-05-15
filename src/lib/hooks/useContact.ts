@@ -2,11 +2,7 @@ import { useState } from "react";
 import { toast } from "sonner";
 import Contact, { emptyContact } from "../model/contact.model";
 import { checkEmptyProperties } from "../util/contact.util";
-
-const styles: React.CSSProperties = {
-  background: "#291533",
-  border: "1px solid #291533",
-};
+import { notificationStyle } from "../util/notification.util";
 
 export default function useContact() {
   const [contact, setContact] = useState<Contact>(emptyContact);
@@ -21,14 +17,14 @@ export default function useContact() {
     const emptyProperty: string = checkEmptyProperties(contact);
     if (emptyProperty && emptyProperty.length > 0) {
       return toast.error(`Please enter your ${emptyProperty}.`, {
-        style: styles,
+        style: notificationStyle,
       });
     }
 
     setContact(emptyContact);
 
     toast.success("Message sent successfully!", {
-      style: styles,
+      style: notificationStyle,
     });
   };
 
