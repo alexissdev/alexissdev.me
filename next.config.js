@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   images: {
-    domains: ['http.cat'],
+    domains: ["http.cat"],
   },
   async redirects() {
-    return require('./redirects.json');
-  }
-}
+    return require("./redirects.json");
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

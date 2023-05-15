@@ -14,7 +14,10 @@ export default function Header({ metaData }: { metaData: Metadata }) {
           property="og:title"
           content={metaData.openGraphTitle ?? metaData.title}
         />
-        <meta property="og:url" content={metaData.url} />
+        <meta
+          property="og:url"
+          content={`https://www.alexissdev.me/${metaData.url}`}
+        />
         <meta property="og:description" content={metaData.description} />
         <meta property="og:image" content="/favicon-1.jpg" />
       </Head>

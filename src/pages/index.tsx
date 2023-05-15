@@ -11,7 +11,7 @@ export default function App() {
           title: "Alexis | Home",
           description: "Alexis is a software engineer and a web developer.",
           openGraphTitle: "Alexis | Home",
-          url: "https://alexissdev.me/",
+          url: "",
         }}
       />
       <Navigation />
