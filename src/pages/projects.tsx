@@ -18,7 +18,7 @@ export default function ProjectsPage({
           title: "Alexis | Projects",
           description: "Our projects: the projects that we have developed",
           openGraphTitle: "Alexis | Projects",
-          url: "https://alexissdev.me/projects",
+          url: "projects",
         }}
       />
       <Navigation />

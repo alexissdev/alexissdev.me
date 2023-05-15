@@ -11,7 +11,7 @@ export default function ContactPage() {
         metaData={{
           title: "Alexis | Contact",
           description: "Contact page",
-          url: "https://www.alexissdev.me/contact",
+          url: "contact",
         }}
       />
       <Contact />

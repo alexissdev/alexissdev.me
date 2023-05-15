@@ -11,7 +11,7 @@ export default function ErrorPage() {
           title: "Alexis | Error",
           description: "Error page.",
           openGraphTitle: "Alexis | Error",
-          url: "https://alexissdev.me/error",
+          url: "error",
         }}
       />
       <Navigation />
