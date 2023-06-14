@@ -11,13 +11,15 @@ export default function Navigation() {
     <div className="bg-secondary w-full flex flex-col justify-center p-2">
       <nav className="flex items-center justify-between flex-wrap md:w-full md:flex-row md:justify-between md:max-w-5xl md:h-16 md:items-center md:mx-auto md:px-8">
         <div className="flex items-center flex-shrink-0 text-white mr-6">
-          <Image
-            src="/logo.png"
-            alt=""
-            className="overflow-hidden mt-1"
-            width={83}
-            height={60}
-          />
+          <Link href="/">
+            <Image
+              src="/logo.png"
+              alt=""
+              className="overflow-hidden mt-1"
+              width={83}
+              height={60}
+            />
+          </Link>
         </div>
         <div className="block lg:hidden">
           <button

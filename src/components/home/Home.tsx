@@ -22,7 +22,7 @@ export default function Home() {
         onClick: () => router.push("/contact"),
       },
     });
-  }, []);
+  });
 
   return (
     <div className="bg-primary text-white text-center">
